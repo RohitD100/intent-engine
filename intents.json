@@ -1,0 +1,15 @@
+{
+  "greeting": {
+    "patterns": ["hello", "hi", "hey"],
+    "response": "Hi! How can I help?"
+  },
+  "goodbye": {
+    "patterns": ["bye", "goodbye"],
+    "response": "Goodbye!"
+  },
+  "name": {
+    "patterns": ["what is your name", "who are you"],
+    "response": "I am MiniAI."
+  }
+  
+}
