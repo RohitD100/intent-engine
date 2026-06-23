@@ -1,15 +1,291 @@
 {
   "greeting": {
-    "patterns": ["hello", "hi", "hey"],
+    "patterns": [
+      "hello",
+      "hi",
+      "hey",
+      "good morning",
+      "good afternoon",
+      "good evening",
+      "howdy",
+      "hi there"
+    ],
     "response": "Hi! How can I help?"
   },
+
   "goodbye": {
-    "patterns": ["bye", "goodbye"],
+    "patterns": [
+      "bye",
+      "goodbye",
+      "see you",
+      "see you later",
+      "talk to you later",
+      "farewell",
+      "exit",
+      "quit"
+    ],
     "response": "Goodbye!"
   },
+
   "name": {
-    "patterns": ["what is your name", "who are you"],
+    "patterns": [
+      "what is your name",
+      "who are you",
+      "tell me your name",
+      "what should I call you",
+      "your name"
+    ],
     "response": "I am MiniAI."
+  },
+
+  "thanks": {
+    "patterns": [
+      "thank you",
+      "thanks",
+      "thanks a lot",
+      "appreciate it",
+      "thank you very much"
+    ],
+    "response": "You're welcome!"
+  },
+
+  "help": {
+    "patterns": [
+      "help",
+      "can you help me",
+      "i need help",
+      "what can you do",
+      "show me what you can do"
+    ],
+    "response": "I can answer questions, chat with you, and help with common tasks."
+  },
+
+  "book_appointment": {
+    "patterns": [
+      "book appointment",
+      "book an appointment",
+      "schedule appointment",
+      "schedule an appointment",
+      "make appointment",
+      "make an appointment",
+      "reserve appointment",
+      "reserve a slot",
+      "book a meeting",
+      "schedule a meeting",
+      "i need an appointment",
+      "i want to book appointment",
+      "appointment booking",
+      "can i book an appointment",
+      "book appointment for tomorrow"
+    ],
+    "response": "Sure! What date and time would you like to book?"
+  },
+
+  "cancel_appointment": {
+    "patterns": [
+      "cancel appointment",
+      "cancel my appointment",
+      "delete appointment",
+      "remove appointment",
+      "i want to cancel appointment"
+    ],
+    "response": "Okay. Please provide the appointment details you'd like to cancel."
+  },
+
+  "weather": {
+    "patterns": [
+      "weather",
+      "what is the weather",
+      "weather today",
+      "is it raining",
+      "weather forecast"
+    ],
+    "response": "I cannot check live weather yet, but I can help once weather integration is added."
+  },
+
+  "time": {
+    "patterns": [
+      "what time is it",
+      "current time",
+      "tell me the time",
+      "time now"
+    ],
+    "response": "I don't currently have access to the live time."
+  },
+
+  "date": {
+    "patterns": [
+      "what is today's date",
+      "today's date",
+      "current date",
+      "what date is it"
+    ],
+    "response": "I don't currently have access to the live date."
+  },
+
+  "joke": {
+    "patterns": [
+      "tell me a joke",
+      "joke",
+      "make me laugh",
+      "say something funny"
+    ],
+    "response": "Why do programmers prefer dark mode? Because light attracts bugs!"
+  },
+
+  "how_are_you": {
+    "patterns": [
+      "how are you",
+      "how are you doing",
+      "are you okay",
+      "how is it going"
+    ],
+    "response": "I'm doing well, thanks for asking!"
+  },
+
+  "creator": {
+    "patterns": [
+      "who made you",
+      "who created you",
+      "who built you",
+      "your creator"
+    ],
+    "response": "I was created by my developer."
+  },
+
+  "age": {
+    "patterns": [
+      "how old are you",
+      "what is your age",
+      "when were you created"
+    ],
+    "response": "I'm a software program, so I don't have an age like humans do."
+  },
+
+  "small_talk": {
+    "patterns": [
+      "what's up",
+      "how's it going",
+      "sup",
+      "how are things",
+      "what are you doing"
+    ],
+    "response": "I'm here and ready to help you!"
+  },
+
+  "capabilities": {
+    "patterns": [
+      "what can you do",
+      "your features",
+      "what are your abilities",
+      "how can you help me",
+      "tell me your functions"
+    ],
+    "response": "I can chat with you, answer questions, and help with basic tasks."
+  },
+
+  "location": {
+    "patterns": [
+      "where am i",
+      "my location",
+      "where are you located",
+      "where is this",
+      "can you find my location"
+    ],
+    "response": "I don't have access to your exact location, but I can help with general location-based info."
+  },
+
+  "identity_limitations": {
+    "patterns": [
+      "are you human",
+      "are you real",
+      "are you a bot",
+      "are you ai",
+      "what are you"
+    ],
+    "response": "I'm an AI chatbot designed to assist you."
+  },
+
+  "motivation": {
+    "patterns": [
+      "motivate me",
+      "i feel lazy",
+      "i feel sad",
+      "give me motivation",
+      "inspire me"
+    ],
+    "response": "Keep going—small steps every day lead to big results!"
+  },
+
+  "math": {
+    "patterns": [
+      "solve math",
+      "calculate",
+      "what is 2 plus 2",
+      "math problem",
+      "do math for me"
+    ],
+    "response": "I can help with basic math. Please give me a problem to solve."
+  },
+
+  "identity_customization": {
+    "patterns": [
+      "change your name",
+      "can i rename you",
+      "what should i call you instead",
+      "your nickname"
+    ],
+    "response": "You can call me whatever you like!"
+  },
+
+  "fallback": {
+    "patterns": ["???", "unknown", "random input placeholder"],
+    "response": "I'm not sure I understand that. Could you rephrase?"
+  },
+  "reminder": {
+    "patterns": [
+      "set reminder",
+      "remind me",
+      "remind me to",
+      "i want a reminder"
+    ],
+    "response": "Sure! What should I remind you about and when?"
+  },
+
+  "notes": {
+    "patterns": ["save note", "make a note", "write this down", "store this"],
+    "response": "Okay, what would you like me to note?"
+  },
+
+  "calculator": {
+    "patterns": ["calculate", "what is", "solve", "math calculation"],
+    "response": "Send me the expression and I’ll calculate it."
+  },
+  "instructions": {
+    "patterns": ["how to", "steps for", "guide me", "tutorial"],
+    "response": "I can guide you step by step. What do you want help with?"
+  },
+
+  "troubleshoot": {
+    "patterns": ["not working", "error", "problem with", "fix"],
+    "response": "I can help you troubleshoot. Please describe the issue."
+  },
+  "preference": {
+    "patterns": ["i like", "i prefer", "my favorite", "i love"],
+    "response": "Nice! I’ll remember your preference in context."
+  },
+
+  "dislike": {
+    "patterns": ["i don't like", "i hate", "avoid", "not interested in"],
+    "response": "Got it, I’ll keep that in mind."
+  },
+  "restart": {
+    "patterns": ["restart", "reset chat", "start over", "clear conversation"],
+    "response": "Chat reset initiated."
+  },
+
+  "feedback": {
+    "patterns": ["feedback", "rate you", "how am i doing", "improve yourself"],
+    "response": "Thanks! Your feedback helps me improve."
   }
-  
 }
