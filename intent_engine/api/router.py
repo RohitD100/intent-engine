@@ -16,3 +16,17 @@ def chat_endpoint(
     """
     result = process_message(payload.message, session_id)
     return ChatResponse(**result)
+
+@router.post("/handoff", response_model=ChatResponse)
+def handoff_endpoint(
+    session_id: str = Header(..., description="Unique client identifier"),
+):
+    """Mark the conversation as needing human handoff.
+    The chatbot will set a `handoff_requested` flag in the session state.
+    """
+    from ..db import get_state, set_state
+    state = get_state(session_id)
+    state["handoff_requested"] = True
+    set_state(session_id, state)
+    # Simple acknowledgment response; no confidence/intent needed.
+    return ChatResponse(reply="Human handoff has been requested. A support agent will contact you shortly.", confidence=None, intent=None)

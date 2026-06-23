@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python3)",
+      "Bash(from *)",
+      "Bash(print)",
+      "Bash(py)"
+    ]
+  },
+  "$version": 4
+}

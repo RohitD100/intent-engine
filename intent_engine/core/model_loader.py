@@ -6,6 +6,7 @@ import pickle
 from pathlib import Path
 from threading import Lock
 
+
 _model = None
 _vectorizer = None
 _lock = Lock()
@@ -27,11 +28,23 @@ def get_model():
 
 
 def get_vectorizer():
-    """Return the fitted TfidfVectorizer, loading it once on first call."""
+    """Return a vectorizer for text representation.
+    By default this loads the historic TF‑IDF vectorizer. If an embedding
+    vectorizer is available (see `embedding_loader.get_embedding_vectorizer`),
+    it takes precedence.
+    """
     global _vectorizer
-    if _vectorizer is None:
+    if _vectorizer is not None:
+        return _vectorizer
+    # Try embedding vectorizer first
+    try:
+        from .embedding_loader import get_embedding_vectorizer
+        _vectorizer = get_embedding_vectorizer()
+        return _vectorizer
+    except Exception:
+        # Fallback to TF‑IDF pickle
         with _lock:
             if _vectorizer is None:
                 with open(VEC_PATH, "rb") as f:
                     _vectorizer = pickle.load(f)
-    return _vectorizer
+        return _vectorizer
