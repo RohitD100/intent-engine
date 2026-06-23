@@ -1,0 +1,2682 @@
+[
+  {
+    "customer_id": 1,
+    "session_id": "87400740-d0d8-443c-80d5-6dacb313c85f",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I nred to vanvrl my appointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sure! What date would you like to book?"
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow at 14:00"
+      },
+      {
+        "role": "bot",
+        "message": "Available times for Tomorrow at 14:00: 10:00, 14:00, 16:00. Which one works for you?"
+      }
+    ]
+  },
+  {
+    "customer_id": 2,
+    "session_id": "f2ce670a-6472-41a2-8aec-4940ce2d84b3",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hey yhrre"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I want to talk to s gumab."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 3,
+    "session_id": "3eb8d411-6265-44fc-94f4-a0ad6c27f3ae",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I need to cancel my appointmebt."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Yomorrow at 14:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 4,
+    "session_id": "e4a40bf5-f3d7-4d79-b3e6-7714a0544d4d",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I neef to csnvrl my appoinyment."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow at 14:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 5,
+    "session_id": "dd78debb-6fdf-45a6-9b20-d857c6621533",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morbinh"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How much does a cleaning vosy?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 6,
+    "session_id": "bb1765f9-5ca8-48ee-8345-ccc3166ccad1",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Hoq much does a cleabing cost?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 7,
+    "session_id": "1812c532-c488-4e88-afaa-176f31ad023e",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morbing"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How are you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 8,
+    "session_id": "d03c771d-45f9-4089-9a91-4ec6b332b422",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hey therr"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Cab I apeak with a real person?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 9,
+    "session_id": "374ca0f3-72cf-49ae-a74d-ba304550cb8b",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How are you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 10,
+    "session_id": "5cc15b56-0fad-45ed-af14-04572fe74e8a",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hrt there"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Can I speak witg s real persob?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 11,
+    "session_id": "36fb3bf1-5f2d-4f45-abab-be13bb003eba",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hey tgeee"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How are you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 12,
+    "session_id": "24449e2a-fe84-485d-a13a-f68302468759",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hoof morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Goq much does s clraninh cosy?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 13,
+    "session_id": "f63caec8-cc77-4ea1-b2c7-5ea765355f01",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How are tou?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 14,
+    "session_id": "d3d672a1-1b9f-420e-a874-ce8f7e8ea15d",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Please gand me over to s staff mrmber."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 15,
+    "session_id": "2efee273-5fce-4058-b4a1-d6fa4b7433ca",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Please gand me ovee to a staff membrr."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 16,
+    "session_id": "8300cc31-0ab2-4be6-8fb8-e7b8c16678a6",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Can I speak with a resl person?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 17,
+    "session_id": "74c2ac1d-069d-49fa-ac74-036010db1a44",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I would like to book an appointmeny."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "09:30"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 18,
+    "session_id": "05cf89ad-bfb8-4f3a-855e-5e1d298505ba",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I would like yo book an sppointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomoerow"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "09:30"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 19,
+    "session_id": "9306ae5c-c692-442b-b849-142c0316fced",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How are you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 20,
+    "session_id": "bf898d30-934a-4de1-b868-b17b044de0da",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I qould like to book an sppoibtmrnt."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "09"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 21,
+    "session_id": "520e42f2-0d4e-4717-832c-3d0ba6507764",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Price for a root canal?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 22,
+    "session_id": "76377b09-1557-4e5c-89c9-d84b8ef92ed7",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Gey there"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Do tou have sny disvounts?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 23,
+    "session_id": "1d2050c1-1290-4337-bee5-7f66f143e0d8",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Please hand me ocer to a stsff member."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 24,
+    "session_id": "2df4d1eb-b385-4a03-84c5-386350476f47",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Het tgere"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I nred to cancel mt appointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sure! What date would you like to book?"
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow at 14:00"
+      },
+      {
+        "role": "bot",
+        "message": "Available times for Tomorrow at 14:00: 10:00, 14:00, 16:00. Which one works for you?"
+      }
+    ]
+  },
+  {
+    "customer_id": 25,
+    "session_id": "788e6498-4385-437a-8ad2-2f20636ac3e5",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hey tgere"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Whay is tge fre for bracrs?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 26,
+    "session_id": "32dabd2c-10e9-41dc-aa4f-6f17d1ca1093",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Goof morninh"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Wgat is the fee foe nraves?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 27,
+    "session_id": "7430f21e-4ec1-4be8-a016-c1ccd04d922c",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How are you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 28,
+    "session_id": "d53e1cf7-b94c-47b4-896a-dfa8e5c7ef32",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Gey there"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Price for a root canal?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 29,
+    "session_id": "a9f48a32-70a8-4df5-811b-c7e68453c0a7",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hrt there"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I qould like yo book sn sppoibtment."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Acyually, can I do it next Mobday?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Yomorrow"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "14:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 30,
+    "session_id": "6ccfaee4-b3e8-433e-b09b-8771f094c639",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good mornibg"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I nerd to csncel my appointmrnt."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomoreoq at 14:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 31,
+    "session_id": "abfc1992-edbe-49c2-a2f7-fcc8f8bdc0ad",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hood moening"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I would like to book an appointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sure! What date would you like to book?"
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow"
+      },
+      {
+        "role": "bot",
+        "message": "Available times for Tomorrow: 10:00, 14:00, 16:00. Which one works for you?"
+      },
+      {
+        "role": "user",
+        "message": "16:00"
+      },
+      {
+        "role": "bot",
+        "message": "Your appointment is booked for Tomorrow at 16:00."
+      }
+    ]
+  },
+  {
+    "customer_id": 32,
+    "session_id": "1186e8a6-9869-40a6-8a60-ce0769c4d14c",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hood morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How arr you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 33,
+    "session_id": "5a72fef3-a987-469d-8355-0b0b9090f5c5",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Please hand me ovee to a ataff member."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 34,
+    "session_id": "0a13c22a-18b3-4f8e-b18e-9323a531b95f",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I beed to canvrl my sppoinymeny."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomorroq at 13:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 35,
+    "session_id": "ab6676fd-9798-407e-ac96-4820809eef7a",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hrllo"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I need to cancel my appointmrbt."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow ay 14:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 36,
+    "session_id": "3d9c5265-72d2-40a1-8603-7d3192d20527",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Goof morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I would likr yo book ab appointmrnt."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "24:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 37,
+    "session_id": "4497c9ea-6cbb-424e-9e53-dec1aa157e87",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hey yhrrr"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I qould like to book ab appoinyment."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Actually, can I do it nrxt Monday?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "10:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 38,
+    "session_id": "d05a76d9-9a85-4182-90e2-32e14f191c13",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How are you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 39,
+    "session_id": "70d9a41d-8e6c-43fe-89c6-b76236c97d65",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Please hanf mr over to a stadf member."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 40,
+    "session_id": "2882c56a-7928-4eb6-b6d7-6ca605b06ee3",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Please hand me over to a stadf member."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 41,
+    "session_id": "e38572c2-806f-490d-82ce-950a3cc92f90",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Gow arr you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 42,
+    "session_id": "da1d2554-f25c-46ef-a78a-bf52c4b56938",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hood morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Do you have sny fiscounys?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 43,
+    "session_id": "131f4cbb-ba12-41c9-8bb0-075a47bbc49f",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hood morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I qoulf like to nook sn sppointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomo"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "10:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 44,
+    "session_id": "e71252ea-c7d7-43df-ba17-adb76e9896ba",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How aee you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 45,
+    "session_id": "54d93fd4-8cdf-4c08-a9c3-07e5b4863285",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morninh"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I wsnt to talk to a humsn."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 46,
+    "session_id": "24062afb-10f0-4dff-8440-845c286c4544",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hrllo"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I would like to book an appoibyment."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "16"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 47,
+    "session_id": "1c8afd4a-f14a-4989-946f-2965b1f0fbbc",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I nred to cancrl my appointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sure! What date would you like to book?"
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow ay 13:00"
+      },
+      {
+        "role": "bot",
+        "message": "Available times for Tomorrow ay 13:00: 10:00, 14:00, 16:00. Which one works for you?"
+      }
+    ]
+  },
+  {
+    "customer_id": 48,
+    "session_id": "05c8eb64-8fd1-4f0f-bacc-b5642017c3e3",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morninh"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Prive for s root canal?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 49,
+    "session_id": "e0cd7637-4384-4eea-8f61-e7af1dd55b7a",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Het thrrr"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Cab I speak with s real persob?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 50,
+    "session_id": "ce5d95d5-c8fd-4d24-ba49-6a9b64059402",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hey there"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Do you havr any fiacounts?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 51,
+    "session_id": "53a070a4-34e6-4848-b827-e726a9f9604a",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Gello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Gow mucg does a clesning cost?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 52,
+    "session_id": "9f59a48a-caca-4651-a033-67dbfefef469",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hrllo"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Peice dor a root vsnal?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 53,
+    "session_id": "98e8877d-60a1-4982-808b-a9fddcea169d",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I neef to csbcel my appointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sure! What date would you like to book?"
+      },
+      {
+        "role": "user",
+        "message": "Tomoreow st 24:00"
+      },
+      {
+        "role": "bot",
+        "message": "Available times for Tomoreow st 24:00: 10:00, 14:00, 16:00. Which one works for you?"
+      }
+    ]
+  },
+  {
+    "customer_id": 54,
+    "session_id": "ce6fecc2-6141-46a7-a1aa-2313a9e3c66c",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "What ia thr fee for braces?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 55,
+    "session_id": "82cf526d-dc14-408b-b1cd-1b952dce57e4",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Can I speak with a real prrson?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 56,
+    "session_id": "fb443c1b-4046-49d7-955f-6234a24a834d",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I nerd to canvel my appointmeny."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow at 24:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 57,
+    "session_id": "a4f38550-8ac2-4887-b427-c44960e7628d",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I would like to book an sppointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomoreow"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "09:30"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 58,
+    "session_id": "56bb0ae3-cbdd-47a1-a7b4-6da700480048",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I beed to cancel my appointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sure! What date would you like to book?"
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow at 13:00"
+      },
+      {
+        "role": "bot",
+        "message": "Available times for Tomorrow at 13:00: 10:00, 14:00, 16:00. Which one works for you?"
+      }
+    ]
+  },
+  {
+    "customer_id": 59,
+    "session_id": "62990138-2595-4503-8729-d0848aee1d42",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hey there"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I would like yo book an appointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sure! What date would you like to book?"
+      },
+      {
+        "role": "user",
+        "message": "Tomoerow"
+      },
+      {
+        "role": "bot",
+        "message": "Available times for Tomoerow: 10:00, 14:00, 16:00. Which one works for you?"
+      },
+      {
+        "role": "user",
+        "message": "14:00"
+      },
+      {
+        "role": "bot",
+        "message": "Your appointment is booked for Tomoerow at 14:00."
+      }
+    ]
+  },
+  {
+    "customer_id": 60,
+    "session_id": "39731b91-c493-4628-a0c8-40dfc743a7f3",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hry there"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How are you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 61,
+    "session_id": "dbfc699e-ee3a-4a24-b8b9-7d4362eb0ea4",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Gi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How are tou?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 62,
+    "session_id": "e4c9027e-b8f0-4def-bc71-6adf0a7ba1a7",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I neef to cabcel my appointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sure! What date would you like to book?"
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow sy 24:00"
+      },
+      {
+        "role": "bot",
+        "message": "Available times for Tomorrow sy 24:00: 10:00, 14:00, 16:00. Which one works for you?"
+      }
+    ]
+  },
+  {
+    "customer_id": 63,
+    "session_id": "ebbb465a-73e7-45f2-b9d0-1c9e2571c146",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hrllo"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Wgst is the fee for besces?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 64,
+    "session_id": "dab6e6ae-078f-4a7d-b5a9-3c16b05ad2a7",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Gow much dors a cleaning cost?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 65,
+    "session_id": "b4a42268-09fd-4e3f-88c5-aed24f6e906c",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good moenibg"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I need to cancel mt sppointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomoerow at 14:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 66,
+    "session_id": "8fe5e6e6-a07c-4b77-a423-de11aa119af3",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I qould like yo book an sppointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Actually, can I do it nrxt Monday?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Yomorrow"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "09:30"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 67,
+    "session_id": "a6a9b7eb-2da2-4f33-a705-d3ab6c7fa71c",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I want yo yalk to a humab."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 68,
+    "session_id": "a5a07d4a-2b02-43aa-808c-56a16ef11a0f",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Gey yhere"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I need yo vancel my appoibtmebt."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomoeeow at 14:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 69,
+    "session_id": "ab9fecdf-3eb6-4ec3-a41d-8be21d7df539",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hey there"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I would like to nook an sppointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "10:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 70,
+    "session_id": "3656c302-44e1-4814-812b-9388c3f7b869",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I would like to book an appoibtment."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Yomorrow"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "09:30"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 71,
+    "session_id": "0caafc74-aece-4ed5-aeba-02f2477afb55",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How are you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 72,
+    "session_id": "44d346c5-c59a-471e-b41f-436dc323b964",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morninh"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Please gand me over yo a staff member."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 73,
+    "session_id": "946d32be-e593-4975-aea9-b972dbeb9124",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Gey tgrre"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I need to cabvel my appointmrnt."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow at 24:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 74,
+    "session_id": "47ba3fad-4aea-48d5-8702-50a13f4b86ff",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hoof morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How are you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 75,
+    "session_id": "631f989d-c0c9-4295-9a01-e594046a26bd",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hry thrre"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I would like to book ab appointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sure! What date would you like to book?"
+      },
+      {
+        "role": "user",
+        "message": "Actually, cab I do iy next Monday?"
+      },
+      {
+        "role": "bot",
+        "message": "Available times for Actually, cab I do iy next Monday?: 10:00, 14:00, 16:00. Which one works for you?"
+      },
+      {
+        "role": "user",
+        "message": "Tomoreow"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, Tomoreow is not available. Available times: 10:00, 14:00, 16:00. Please choose one."
+      },
+      {
+        "role": "user",
+        "message": "14:00"
+      },
+      {
+        "role": "bot",
+        "message": "Your appointment is booked for Actually, cab I do iy next Monday? at 14:00."
+      }
+    ]
+  },
+  {
+    "customer_id": 76,
+    "session_id": "7e4e66a8-a5dd-44b4-b1b8-c8fdf2b6e647",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Can I speak with a real peeaon?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 77,
+    "session_id": "76e745cf-4434-49bb-b41b-790e58f7a9ab",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How aee you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 78,
+    "session_id": "1d700293-4eaa-488e-b0d2-b0e4ea33e842",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I would like to bo"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomoerow"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "14:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 79,
+    "session_id": "ec01dee9-2cc7-498a-a598-5e193d2d0a29",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hey there"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How are you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 80,
+    "session_id": "65b80922-5016-4b10-9b3c-75bb336948dd",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Pleasr hand me ovee to a staff membrr."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 81,
+    "session_id": "fbe707b3-77a6-4e5e-b1b1-2c27ec74b6a5",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hey yhere"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Price for a root cabal?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 82,
+    "session_id": "e50de291-5f20-44e9-8173-0536957055ba",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How are you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 83,
+    "session_id": "6e018ce0-91dc-4977-a3d0-32e743cd8dbd",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Gello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Do tou have any fiscounts?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 84,
+    "session_id": "995ab52c-acae-4666-a8d9-cf8696fcd721",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good mornibg"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How are you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 85,
+    "session_id": "1556806c-84b8-4f7d-b0bb-2361a85e6ef5",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I woulf like to book an appointmebt."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "09:30"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 86,
+    "session_id": "bc095bd9-9509-46f7-baf0-b84ee651c2e2",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How are you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 87,
+    "session_id": "4ba0306a-7b00-4e76-82e0-a442a4094639",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Can I apeak wiyh a resl peraon?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 88,
+    "session_id": "fe55d8cc-24c4-4f14-a029-01cabbb609fa",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hrllo"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Hoq are you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 89,
+    "session_id": "c711d82c-5861-45aa-8f87-13df76d23418",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hey theee"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How are you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 90,
+    "session_id": "8bd8c7cf-6aef-4ad6-a65f-d361742d48e0",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hoof morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Price for a rooy canal?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 91,
+    "session_id": "9230c8e5-06bf-49a6-b862-5744c9c9a519",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I would like to book sn appointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sure! What date would you like to book?"
+      },
+      {
+        "role": "user",
+        "message": "Tomorroq"
+      },
+      {
+        "role": "bot",
+        "message": "Available times for Tomorroq: 10:00, 14:00, 16:00. Which one works for you?"
+      },
+      {
+        "role": "user",
+        "message": "09"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, 09 is not available. Available times: 10:00, 14:00, 16:00. Please choose one."
+      }
+    ]
+  },
+  {
+    "customer_id": 92,
+    "session_id": "4f5224bf-b7b7-4b72-a01d-78fbf8750027",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Gi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I want to talk to a humab."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 93,
+    "session_id": "3599a844-6445-4468-b9d4-de83a6264890",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I berf yo cancel mt appointmebt."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Yomorrow at 23:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 94,
+    "session_id": "d6c3dcf7-5513-4002-910b-9c425ac60982",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I need to cancel my appoibtmebt."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomorrow at 14:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 95,
+    "session_id": "4627a866-6460-4c8d-866c-4aed29622a57",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I would like to book ab appointment."
+      },
+      {
+        "role": "bot",
+        "message": "Sure! What date would you like to book?"
+      },
+      {
+        "role": "user",
+        "message": "Tomoreow"
+      },
+      {
+        "role": "bot",
+        "message": "Available times for Tomoreow: 10:00, 14:00, 16:00. Which one works for you?"
+      },
+      {
+        "role": "user",
+        "message": "09:40"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, 09:40 is not available. Available times: 10:00, 14:00, 16:00. Please choose one."
+      }
+    ]
+  },
+  {
+    "customer_id": 96,
+    "session_id": "4127ec74-c2b7-41c9-897d-05a0114cba97",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Goof moening"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "I nred to cabcrl my appointmebt."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Tomoreow at 14:00"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 97,
+    "session_id": "26f0f267-d6b9-4be9-8509-7d85f3c2345f",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "How arr you?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 98,
+    "session_id": "7ff678fe-786c-475d-8bdd-19455ae63aed",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Good morning"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Plesae gabd me over to a syaff member."
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 99,
+    "session_id": "6f2ae421-ef9b-4b28-a687-6a93326aca1f",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Gello"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "Price dor s root canal?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  },
+  {
+    "customer_id": 100,
+    "session_id": "4b76eaf5-24d9-4f8b-b4d9-1e456b25d305",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hood mornibg"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      },
+      {
+        "role": "user",
+        "message": "What is thr der for beacea?"
+      },
+      {
+        "role": "bot",
+        "message": "Sorry, I didn't understand that."
+      }
+    ]
+  }
+]

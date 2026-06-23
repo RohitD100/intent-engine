@@ -72,15 +72,42 @@ def process_message(message: str, session_id: str) -> dict:
             confidence = None
             intent = None
         else:
+            import re
             lowered = message.lower()
-            if "appointment" in lowered:
+            # Simple regex patterns to catch intents despite minor typos
+            # Simple substring checks to catch intents despite minor typos
+            intent = None
+            # Greeting intents
+            if any(keyword in lowered for keyword in ["hello", "hi", "hey", "good morning", "good afternoon", "good evening", "greetings"]):
+                intent = "greeting"
+            # Booking intents
+            elif any(keyword in lowered for keyword in ["appointment", "appoin", "book", "schedule", "reserve", "meeting"]):
                 intent = "book_appointment"
-                confidence = 1.0
-                reply = _apply_personality(WITH_INTENTS.get(intent, {"response": "I don't have a response."}).get("response"))
+            # Cancellation intents
+            elif any(keyword in lowered for keyword in ["cancel", "delete", "remove", "cance"]):
+                intent = "cancel_appointment"
+            # Human handoff intents
+            elif any(keyword in lowered for keyword in ["human", "person", "staff", "agent", "operator"]):
+                intent = "handoff"
+            # Price/intention queries
+            elif any(keyword in lowered for keyword in ["price", "cost", "fee", "discount", "how much"]):
+                intent = "price"
+
+            if intent:
+                # Special handling for handoff intent
+                if intent == "handoff":
+                    state["handoff_requested"] = True
+                    reply = _apply_personality("Human handoff has been requested. A support agent will contact you shortly.")
+                    confidence = None
+                    intent = None
+                else:
+                    confidence = 1.0
+                    reply = _apply_personality(WITH_INTENTS.get(intent, {"response": "I don't have a response."}).get("response"))
             else:
                 # Default fallback when no model is available.
                 reply = _apply_personality("Sorry, I didn't understand that.")
                 confidence = 0.0
+                intent = None
                 intent = None
 
     # ----- Booking flow -----
