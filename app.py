@@ -1,78 +1,38 @@
-import json
-import pickle
+"""Thin wrapper that delegates all logic to the new package.
+Keeps the original CLI behaviour (session‑ID generation) while the FastAPI app is now
+exposed as `intent_engine.main.app`.
+"""
 
-# Load model + vectorizer
-with open("model.pkl", "rb") as f:
-    model = pickle.load(f)
+import uuid
+from intent_engine.main import app as api_app
+from intent_engine.core.chatbot import process_message
+from fastapi import FastAPI
+from pydantic import BaseModel, Field
+from typing import Optional
 
-with open("vectorizer.pkl", "rb") as f:
-    vectorizer = pickle.load(f)
+# Re‑export the FastAPI app under the name `api` for backward compatibility
+api = api_app
 
-with open("intents.json") as f:
-    responses = json.load(f)
+class ChatRequest(BaseModel):
+    message: str = Field(..., min_length=1, max_length=500)
 
-# Load knowledge base
-try:
-    with open("knowledge.json") as f:
-        knowledge = json.load(f)
-except FileNotFoundError:
-    knowledge = {}
+class ChatResponse(BaseModel):
+    reply: str
+    confidence: Optional[float] = None
+    intent: Optional[str] = None
 
-# Load memory
-try:
-    with open("memory.json") as f:
-        memory = json.load(f)
-except FileNotFoundError:
-    memory = {}
+def run_cli() -> None:
+    """Interactive console – generates a fresh UUID for the session."""
+    session_id = str(uuid.uuid4())
+    print(f"Session ID: {session_id}")
+    while True:
+        message = input("You: ")
+        result = process_message(message, session_id)
+        print("AI:", result["reply"])
+        # if result["confidence"] is not None:
+        #     print(f"(confidence: {result['confidence']:.2f})")
+        #     if result["confidence"] < 0.6:
+        #         print("Note: low confidence")
 
-CONFIDENCE_THRESHOLD = 0.5
-
-
-def save_memory():
-    with open("memory.json", "w") as f:
-        json.dump(memory, f, indent=2)
-
-
-def check_knowledge(message):
-    """
-    Simple keyword match against knowledge base
-    """
-    msg = message.lower()
-    for key, value in knowledge.items():
-        if key in msg:
-            return value
-    return None
-
-
-while True:
-    message = input("You: ")
-
-    # ---- MEMORY UPDATE ----
-    memory["last_message"] = message
-
-    # ---- KNOWLEDGE CHECK FIRST (rule-based override) ----
-    kb_answer = check_knowledge(message)
-    if kb_answer:
-        print("AI:", kb_answer)
-        continue
-
-    # ---- ML MODEL ----
-    X = vectorizer.transform([message])
-    probs = model.predict_proba(X)[0]
-
-    max_confidence = max(probs)
-    intent = model.classes_[probs.argmax()]
-
-    if max_confidence >= CONFIDENCE_THRESHOLD:
-        reply = responses.get(intent, "I don't have a response for that.")
-        print("AI:", reply)
-
-        # update memory
-        memory["last_intent"] = intent
-    else:
-        print("AI: Sorry, I didn't understand that.")
-
-    print(f"(confidence: {max_confidence:.2f})")
-
-    # save memory after every turn
-    save_memory()
+if __name__ == "__main__":
+    run_cli()

@@ -1,5 +1,5 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.naive_bayes import MultinomialNB
+from sklearn.linear_model import SGDClassifier
 import pickle
 
 texts = [
@@ -32,7 +32,7 @@ vectorizer =  TfidfVectorizer(
 )
 X = vectorizer.fit_transform(texts)
 
-model = MultinomialNB()
+model = SGDClassifier(loss='log_loss', max_iter=1000, tol=1e-3)
 model.fit(X, labels)
 
 with open("model.pkl", "wb") as f:

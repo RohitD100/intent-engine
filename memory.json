@@ -1,5 +1,120 @@
 {
   "last_intent": "greeting",
-  "last_message": "",
-  "user_name": null
+  "last_message": "what are you doing ?",
+  "user_name": null,
+  "history": [
+    {
+      "user": "hello",
+      "reply": "Here's what I think: Hi! How can I help?",
+      "confidence": 0.6452006000517269,
+      "intent": "greeting"
+    },
+    {
+      "user": "xyzabc",
+      "reply": "Let me tell you: Sorry, I didn't understand that.",
+      "confidence": 0.4444444444444444,
+      "intent": null
+    },
+    {
+      "user": "hello",
+      "reply": "Sure thing! Hi! How can I help?",
+      "confidence": 0.6452006000517269,
+      "intent": "greeting"
+    },
+    {
+      "user": "hi",
+      "reply": "Here's what I think: Hi! How can I help?",
+      "confidence": 0.6240926361559324,
+      "intent": "greeting"
+    },
+    {
+      "user": "hello ",
+      "reply": "Sure thing! Hi! How can I help?",
+      "confidence": 0.6452006000517269,
+      "intent": "greeting"
+    },
+    {
+      "user": "how are you?",
+      "reply": "Sure thing! Sorry, I didn't understand that.",
+      "confidence": 0.39885149711883083,
+      "intent": null
+    },
+    {
+      "user": "a;lkdsf",
+      "reply": "Absolutely: Sorry, I didn't understand that.",
+      "confidence": 0.4444444444444444,
+      "intent": null
+    },
+    {
+      "user": "a;ksdf;j",
+      "reply": "Absolutely: Sorry, I didn't understand that.",
+      "confidence": 0.4444444444444444,
+      "intent": null
+    },
+    {
+      "user": ";kljsdf",
+      "reply": "Absolutely: Sorry, I didn't understand that.",
+      "confidence": 0.4444444444444444,
+      "intent": null
+    },
+    {
+      "user": "anything from your side ",
+      "reply": "Sure thing! Sorry, I didn't understand that.",
+      "confidence": 0.4218545681340292,
+      "intent": null
+    },
+    {
+      "user": "",
+      "reply": "Let me tell you: Sorry, I didn't understand that.",
+      "confidence": 0.4444444444444444,
+      "intent": null
+    },
+    {
+      "user": "hi ",
+      "reply": "Absolutely: Hi! How can I help?",
+      "confidence": 0.6240926361559324,
+      "intent": "greeting"
+    },
+    {
+      "user": "hello ",
+      "reply": "Absolutely: Hi! How can I help?",
+      "confidence": 0.6452006000517269,
+      "intent": "greeting"
+    },
+    {
+      "user": "hello ",
+      "reply": "Absolutely: Hi! How can I help?",
+      "confidence": 0.6452006000517269,
+      "intent": "greeting"
+    },
+    {
+      "user": "asdfsdf",
+      "reply": "Interesting question! Sorry, I didn't understand that.",
+      "confidence": 0.4444444444444444,
+      "intent": null
+    },
+    {
+      "user": "hell ",
+      "reply": "Absolutely: Hi! How can I help?",
+      "confidence": 0.9640999645894368,
+      "intent": "greeting"
+    },
+    {
+      "user": "ram",
+      "reply": "Let me tell you: Sorry, I didn't understand that.",
+      "confidence": 0.35764399748070924,
+      "intent": null
+    }
+  ],
+  "fallback": [
+    "xyzabc",
+    "how are you?",
+    "a;lkdsf",
+    "a;ksdf;j",
+    ";kljsdf",
+    "anything from your side ",
+    "",
+    "asdfsdf",
+    "ram"
+  ]
 }

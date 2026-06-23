@@ -1,5 +1,8 @@
 {
   "hours": "We are open from 9 AM to 6 PM.",
   "pricing": "Basic plan starts at $10/month.",
-  "refund": "Refunds are processed within 5–7 days."
+  "refund": "Refunds are processed within 5–7 days.",
+  "support": "You can reach support via email support@example.com.",
+  "location": "Our office is located at 123 Main St.",
+  "features": "We offer features A, B, and C."
 }
