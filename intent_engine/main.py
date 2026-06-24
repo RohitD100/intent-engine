@@ -7,3 +7,6 @@ from .api.router import router
 
 app = FastAPI(title="Intent Engine")
 app.include_router(router)
+
+
+#  uvicorn intent_engine.main:app --host 0.0.0.0 --port 8000 --reload
