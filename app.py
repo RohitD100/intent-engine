@@ -22,17 +22,21 @@ class ChatResponse(BaseModel):
     intent: Optional[str] = None
 
 def run_cli() -> None:
-    """Interactive console – generates a fresh UUID for the session."""
-    session_id = str(uuid.uuid4())
-    print(f"Session ID: {session_id}")
-    while True:
-        message = input("You: ")
-        result = process_message(message, session_id)
-        print("AI:", result["reply"])
-        # if result["confidence"] is not None:
-        #     print(f"(confidence: {result['confidence']:.2f})")
-        #     if result["confidence"] < 0.6:
-        #         print("Note: low confidence")
+    try:
+        """Interactive console – generates a fresh UUID for the session."""
+        session_id = str(uuid.uuid4())
+        print(f"Session ID: {session_id}")
+        while True:
+            message = input("You: ")
+            result = process_message(message, session_id)
+            print("AI:", result["reply"])
+            # if result["confidence"] is not None:
+            #     print(f"(confidence: {result['confidence']:.2f})")
+            #     if result["confidence"] < 0.6:
+            #         print("Note: low confidence")
+    except KeyboardInterrupt:
+        print("\nExiting…")
+        # clean‑up or simply exit
 
 if __name__ == "__main__":
     run_cli()
