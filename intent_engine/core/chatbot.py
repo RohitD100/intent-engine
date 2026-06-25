@@ -323,6 +323,11 @@ def _process_message_impl(message: str, session_id: str) -> dict:
         else:
             state.pop("cancellation", None)
 
+    # Ensure reply is always defined before persisting history
+    if "reply" not in locals():
+        reply = _apply_personality("I couldn't understand that.")
+        confidence = None
+        intent = None
     set_state(session_id, state)
     save_history(session_id, message, reply, confidence, intent)
     return {"reply": reply, "confidence": confidence, "intent": intent}
