@@ -35,11 +35,12 @@ def _check_knowledge(message: str) -> Optional[str]:
     return None
 
 def _approx_match(text: str, keywords: list) -> bool:
+    """Return True if any keyword appears as a substring in the text.
+    This uses simple exact substring matching to avoid false‑positive fuzzy matches.
+    """
     lowered = text.lower()
     for kw in keywords:
         if kw in lowered:
-            return True
-        if difflib.get_close_matches(kw, [lowered], n=1, cutoff=0.8):
             return True
     return False
 
@@ -65,7 +66,7 @@ def _parse_date(text: str) -> str:
     if m:
         cand = m.group(1)
         # Find closest weekday using difflib if exact prefix not found
-        matches = difflib.get_close_matches(cand, weekdays, n=1, cutoff=0.6)
+        matches = difflib.get_close_matches(cand, weekdays, n=1, cutoff=0.5)
         day = matches[0] if matches else None
         if not day:
             for d in weekdays:
@@ -95,6 +96,8 @@ def _log_state(old_state: dict, new_state: dict, action: str) -> None:
 # ----------------------------------------------------------------------
 
 def _process_message_impl(message: str, session_id: str) -> dict:
+    reply = ""
+    confidence = None
     from ..db import get_state, set_state, save_history
     state = get_state(session_id)
     # Ensure intent persistence across turns
@@ -198,28 +201,49 @@ def _process_message_impl(message: str, session_id: str) -> dict:
     elif intent == "small_talk":
         reply = _apply_personality(WITH_INTENTS.get("small_talk", {"response": "I'm just a bot, but I'm doing fine!"})["response"])
         confidence = 1.0
-    elif intent is None and "booking" not in state and "cancellation" not in state and _is_valid_time(lowered):
-        # Pre‑booking time suggestion when user mentions a time outside of a booking flow
-        slots = _available_slots(datetime.date.today().isoformat())
-        slots_str = ", ".join(slots)
-        reply = _apply_personality(f"Available times: {slots_str}. Please let me know which one works for you.")
-        confidence = None
-        intent = None
         set_state(session_id, state)
         save_history(session_id, message, reply, confidence, intent)
         return {"reply": reply, "confidence": confidence, "intent": intent}
+    if intent is None and "booking" not in state and "cancellation" not in state:
+        # Detect time‑like input (e.g., "14:00" or "9") even if invalid, and suggest slots
+        if re.search(r"^\s*\d{1,2}(?::\d{2})?\s*$", lowered):
+            slots = _available_slots(datetime.date.today().isoformat())
+            slots_str = ", ".join(slots)
+            reply = _apply_personality(f"Available times: {slots_str}. Please let me know which one works for you.")
+            confidence = None
+            intent = None
+            set_state(session_id, state)
+            save_history(session_id, message, reply, confidence, intent)
+            return {"reply": reply, "confidence": confidence, "intent": intent}
+        # Date parsing for natural language dates like "tomorrow" or "next monday"
+        parsed_date = _parse_date(lowered)
+        if parsed_date != lowered:
+            slots = _available_slots(parsed_date)
+            slots_str = ", ".join(slots)
+            reply = _apply_personality(f"Available times for {parsed_date}: {slots_str}. Please let me know which one works for you.")
+            confidence = None
+            intent = None
+            set_state(session_id, state)
+            save_history(session_id, message, reply, confidence, intent)
+            return {"reply": reply, "confidence": confidence, "intent": intent}
     elif intent == "book_appointment":
         state["booking"] = {"step": "await_date"}
         reply = _apply_personality("Sure! What date would you like to book?")
         confidence = None
         intent = None
+        set_state(session_id, state)
+        save_history(session_id, message, reply, confidence, intent)
+        return {"reply": reply, "confidence": confidence, "intent": intent}
     elif intent == "cancel_appointment":
         state["cancellation"] = {"step": "await_details"}
         reply = _apply_personality("Sure, please provide the appointment details you want to cancel.")
         confidence = None
         intent = None
+        set_state(session_id, state)
+        save_history(session_id, message, reply, confidence, intent)
+        return {"reply": reply, "confidence": confidence, "intent": intent}
     else:
-        reply = _apply_personality("Sorry, I didn't understand that. You can ask about booking, cancellation, price, or say 'help' for a list of supported commands.")
+        reply = _apply_personality("I couldn't understand that. You can ask about booking, cancellation, price, discounts, or say 'help' for a list of supported commands.")
         confidence = 0.0
         intent = None
 
