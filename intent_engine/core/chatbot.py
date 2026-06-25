@@ -120,6 +120,7 @@ def _process_message_impl(message: str, session_id: str) -> dict:
         save_history(session_id, message, reply, confidence, intent)
         return {"reply": reply, "confidence": confidence, "intent": intent}
 
+    # --- Greeting detection (priority, resets any ongoing flow) ---
     greeting_keywords = [
         "hello", "hi", "hey", "good morning", "good afternoon", "good evening",
         "greetings", "gud morning", "gud afternoon", "gud evening",
@@ -127,12 +128,14 @@ def _process_message_impl(message: str, session_id: str) -> dict:
         "gello", "gi", "hrllo", "hry there", "gey there", "hood morning",
         "good morninh", "goof morning", "gello", "gi", "hrllo"
     ]
-    if current_intent is None and _approx_match(message.lower(), greeting_keywords):
+    if _approx_match(message.lower(), greeting_keywords):
         old_state = state.copy()
         state.pop("booking", None)
         state.pop("cancellation", None)
         _log_state(old_state, state, "greeting_reset_state")
         reply = _apply_personality(WITH_INTENTS.get("greeting", {"response": "Hi! How can I help?"})["response"])
+        if not reply:
+            reply = "Hi! How can I help?"
         confidence = None
         intent = "greeting"
         set_state(session_id, state)
@@ -158,17 +161,19 @@ def _process_message_impl(message: str, session_id: str) -> dict:
     if intent is None:
         handoff_keywords = [
             "human", "person", "staff", "agent", "operator", "hum an", "humman",
-            "peason", "real persob", "humab", "staff membrr", "hand over",
-            "hand me over", "transfer", "human handoff", "talk to a person"
+            "peason", "real persob", "real person", "humab", "staff membrr",
+            "hand over", "hand me over", "transfer", "human handoff",
+            "talk to a person", "talk to a human", "speak with a person", "need a human", "human help"
         ]
         if _approx_match(lowered, handoff_keywords):
             intent = "handoff"
     if intent is None:
         price_keywords = [
-            "price", "cost", "fee", "discount", "how much", "pricing",
+            "price", "pric", "prce", "cost", "fee", "discount", "discounts", "how much", "pricing",
             "how much does", "what is the cost", "what's the price", "charge",
-            "cleaning", "cleaning cost", "cleaning price", "procedure fee", "cleaning fee",
-            "cleaning cost", "cleaning price", "fee for braces", "discounts", "discount"
+            "cleaning", "cleaning cost", "cleaning price", "cleaning fee",
+            "cleaning vosy", "cleaning cost", "cleaning price", "fee for braces",
+            "braces fee", "braces cost", "procedure fee"
         ]
         if _approx_match(lowered, price_keywords):
             intent = "price"
@@ -287,6 +292,7 @@ def _process_message_impl(message: str, session_id: str) -> dict:
                 date = booking.get("date", "[date]")
                 reply = _apply_personality(f"Your appointment is booked for {date} at {chosen}.")
                 state.pop("booking", None)
+                state.pop("current_intent", None)
                 confidence = None
         else:
             state.pop("booking", None)
@@ -312,16 +318,18 @@ def _process_message_impl(message: str, session_id: str) -> dict:
                 else:
                     reply = _apply_personality(f"Your appointment on {parsed_date} has been cancelled.")
                 state.pop("cancellation", None)
+                state.pop("current_intent", None)
                 _log_state(state, state, "cancellation_confirmed")
                 confidence = None
                 intent = None
             else:
-                reply = _apply_personality("I couldn't understand the appointment you want to cancel. Please provide a clear date (e.g., 'tomorrow') and time if known.")
+                reply = _apply_personality("I couldn't understand the cancellation request. Please provide a clear date (e.g., 'tomorrow') and time if known, or say 'help' for assistance.")
                 confidence = None
                 intent = None
                 _log_state(state, state, "cancellation_invalid")
         else:
             state.pop("cancellation", None)
+            state.pop("current_intent", None)
 
     # Ensure reply is always defined before persisting history
     if "reply" not in locals():

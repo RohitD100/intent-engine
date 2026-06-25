@@ -4,5 +4,13 @@
   "refund": "Refunds are processed within 5–7 days.",
   "support": "You can reach support via email support@example.com.",
   "location": "Our office is located at 123 Main St.",
-  "features": "We offer features A, B, and C."
+  "features": "We offer features A, B, and C.",
+  "cleaning cost": "A standard cleaning costs $75.",
+  "root canal price": "Root canal treatment starts at $250.",
+  "braces fee": "Braces start at $1500 for the full treatment.",
+  "discounts": "We offer a 10% discount for first‑time patients.",
+  "price for a root canal": "Root canal treatment starts at $250.",
+  "root canal cost": "Root canal treatment starts at $250.",
+  "price for braces": "Braces start at $1500 for the full treatment.",
+  "braces cost": "Braces start at $1500 for the full treatment."
 }

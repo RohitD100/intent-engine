@@ -5,7 +5,21 @@
       "Bash(python3)",
       "Bash(from *)",
       "Bash(print)",
-      "Bash(py)"
+      "Bash(py)",
+      "Bash(python *)",
+      "Bash(./venv/bin/pip *)",
+      "Bash(./venv/bin/python *)",
+      "Bash(./venv/bin/uvicorn *)",
+      "Bash(uvicorn *)",
+      "Bash(lsof *)",
+      "Bash(kill *)",
+      "Bash(curl *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(pytest *)",
+      "Bash(source *)",
+      "Bash(bash *)",
+      "Bash(venv/bin/uvicorn *)"
     ]
   },
   "$version": 4

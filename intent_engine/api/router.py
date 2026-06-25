@@ -1,7 +1,7 @@
 """FastAPI router – thin glue between HTTP and the core chatbot logic."""
 
 from fastapi import APIRouter, Header, HTTPException
-from ..core.chatbot import process_message
+from ..core.chatbot import _process_message_impl as process_message
 from .schemas import ChatRequest, ChatResponse
 
 router = APIRouter(prefix="/api")
